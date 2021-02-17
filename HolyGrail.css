@@ -1,0 +1,39 @@
+body {
+    min-height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    outline: solid black;
+}
+header {
+    height: 100px;
+    background-color: rgb(194, 32, 32);
+}
+.container {
+    display: flex;
+    outline: solid black;
+    height: 600px;
+}
+main {
+    flex: 1;
+    background-color: pink;
+}
+nav {
+    width: 150px;
+    background-color: rgb(194, 32, 32);
+}
+footer {
+    height: 50px;
+    background-color: rgb(194, 32, 32);
+}
+
+/* @media screen and (max-width: 900px) {
+    body, nav, aside {
+        width: 100%;
+    }
+    div {
+        flex-direction: column;
+    }
+    main {
+        order: -1;
+    }
+} */
